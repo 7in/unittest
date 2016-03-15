@@ -8,7 +8,7 @@
 	<!-- 引入资源文件 -->
 	<!-- ======================================== -->
 	<context:annotation-config/>
-	<context:property-placeholder location="classpath:antx.properties"/>
+	<context:property-placeholder location="antx.properties" />
 
 	<context:component-scan base-package="com.handsome"
 							use-default-filters="false">
