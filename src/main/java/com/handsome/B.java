@@ -10,4 +10,8 @@ public class B {
     public void printHelloB(){
         System.out.println("Hello ,b!");
     }
+
+    public String getHelloWord(){
+        return "HelloWord!";
+    }
 }
