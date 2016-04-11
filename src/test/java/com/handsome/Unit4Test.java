@@ -23,7 +23,7 @@ public class Unit4Test {
     public void test() {
         logger.error("com.handsome.Unit4Test.test start！！！");
         try {
-            a.printHelloB();
+            a.printHelloWord();
         } catch (Exception e) {
             logger.error("error", e);
         }

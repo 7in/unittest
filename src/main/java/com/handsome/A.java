@@ -16,5 +16,10 @@ public class A {
         System.out.println("Hello ,a!");
     }
 
-    public void printHelloB(){b.printHelloB();}
+    public void printHelloWord(){
+        System.out.println("a.printHelloB start!");
+        System.out.println(b.getHelloWord());
+        System.out.println("a.printHelloB end!");
+
+    }
 }
