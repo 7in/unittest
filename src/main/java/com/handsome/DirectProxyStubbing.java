@@ -9,6 +9,6 @@ import org.mockito.stubbing.OngoingStubbing;
  */
 public abstract class DirectProxyStubbing<T> extends BaseStubbing<T> implements OngoingStubbing<T>, DeprecatedOngoingStubbing<T> {
     public OngoingStubbing<T> thenAsk(T value) {
-        return thenAnswer(new DirectForAnswer());
+        return thenAnswer(new IMockAnswer());
     }
 }

@@ -8,7 +8,7 @@ import java.io.Serializable;
 /**
  * Created by jiayu.shenjy on 2016/4/11.
  */
-public class DirectForAnswer implements Answer<Object>, Serializable {
+public class IMockAnswer implements Answer<Object>, Serializable {
     private static final long serialVersionUID = -5025846846899380426L;
 
 //    @Resource

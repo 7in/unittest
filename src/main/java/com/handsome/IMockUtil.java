@@ -13,17 +13,21 @@ import static org.mockito.Mockito.when;
  * Created by jiayu.shenjy on 2016/4/11.
  */
 public class IMockUtil {
-    public static void assembleMockAsk(Class originClazz,Object mockClazz) throws InvocationTargetException, IllegalAccessException {
-        DirectForAnswer answer = new DirectForAnswer();
+    public static void assembleMockAsk(Class originClazz, Object mockClazz) throws InvocationTargetException, IllegalAccessException {
+        IMockAnswer answer = new IMockAnswer();
         Method[] originMethods = originClazz.getDeclaredMethods();
         Method[] mockMethods = mockClazz.getClass().getDeclaredMethods();
 
-        List<Method> temps = filter(originMethods,mockMethods);
+        List<Method> temps = filter(originMethods, mockMethods);
         for (Method method : temps) {
             Class<?>[] types = method.getParameterTypes();
+        /**
+         *TODO 这里需要看情况，answer里面调用IMock平台需要传不同的参数，那么可能需要每次new IMockAnswer();
+        */
             when(method.invoke(mockClazz, types)).then(answer);
         }
     }
+
     /**
      * 被mock的类
      *
