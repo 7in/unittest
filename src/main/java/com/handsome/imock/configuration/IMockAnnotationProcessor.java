@@ -1,10 +1,11 @@
-package com.handsome;
+package com.handsome.imock.configuration;
 
+import com.handsome.imock.IMock;
+import com.handsome.imock.util.IMockUtil;
 import org.mockito.MockSettings;
 import org.mockito.Mockito;
 import org.mockito.exceptions.base.MockitoException;
 import org.mockito.internal.configuration.FieldAnnotationProcessor;
-import org.mockito.internal.util.reflection.FieldSetter;
 
 import java.lang.reflect.Field;
 

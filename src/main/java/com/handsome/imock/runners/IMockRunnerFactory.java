@@ -1,4 +1,4 @@
-package com.handsome;
+package com.handsome.imock.runners;
 
 import org.mockito.exceptions.base.MockitoException;
 import org.mockito.internal.runners.RunnerFactory;
@@ -26,7 +26,7 @@ public class IMockRunnerFactory extends RunnerFactory {
     public RunnerImpl create(Class<?> klass) throws InvocationTargetException {
         try {
             if (runnerProvider.isJUnit45OrHigherAvailable()) {
-                return runnerProvider.newInstance("com.handsome.IMockJUnit45AndHigherRunnerImpl", klass);
+                return runnerProvider.newInstance("com.handsome.imock.runners.IMockJUnit45AndHigherRunnerImpl", klass);
             } else {
                 return runnerProvider.newInstance("org.mockito.internal.runners.JUnit44RunnerImpl", klass);
             }

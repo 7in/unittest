@@ -1,4 +1,4 @@
-package com.handsome;
+package com.handsome.imock.runners;
 
 import org.junit.runner.Description;
 import org.junit.runner.Runner;

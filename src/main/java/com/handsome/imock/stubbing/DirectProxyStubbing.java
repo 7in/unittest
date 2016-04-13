@@ -1,5 +1,6 @@
-package com.handsome;
+package com.handsome.imock.stubbing;
 
+import com.handsome.imock.stubbing.answers.IMockAnswer;
 import org.mockito.internal.stubbing.BaseStubbing;
 import org.mockito.stubbing.DeprecatedOngoingStubbing;
 import org.mockito.stubbing.OngoingStubbing;

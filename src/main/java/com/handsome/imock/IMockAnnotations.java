@@ -1,5 +1,6 @@
-package com.handsome;
+package com.handsome.imock;
 
+import com.handsome.imock.configuration.IMockConfiguration;
 import org.mockito.Captor;
 import org.mockito.InjectMocks;
 import org.mockito.Spy;
@@ -7,7 +8,6 @@ import org.mockito.configuration.AnnotationEngine;
 import org.mockito.configuration.DefaultMockitoConfiguration;
 import org.mockito.exceptions.Reporter;
 import org.mockito.exceptions.base.MockitoException;
-import org.mockito.internal.configuration.GlobalConfiguration;
 import org.mockito.internal.util.reflection.FieldSetter;
 
 import java.lang.annotation.Annotation;

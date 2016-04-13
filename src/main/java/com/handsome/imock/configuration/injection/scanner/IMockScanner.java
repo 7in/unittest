@@ -1,5 +1,7 @@
-package com.handsome;
+package com.handsome.imock.configuration.injection.scanner;
 
+import com.handsome.imock.IMock;
+import com.handsome.imock.IMockAnnotations;
 import org.mockito.Spy;
 import org.mockito.internal.util.MockUtil;
 import org.mockito.internal.util.reflection.FieldReader;

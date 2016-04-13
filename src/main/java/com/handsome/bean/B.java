@@ -1,4 +1,4 @@
-package com.handsome;
+package com.handsome.bean;
 
 import org.springframework.stereotype.Repository;
 
@@ -13,5 +13,9 @@ public class B {
 
     public String getHelloWord(){
         return "HelloWord!";
+    }
+
+    public static String staticHelloWord(){
+        return "staticHelloWord!";
     }
 }

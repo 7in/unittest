@@ -10,8 +10,8 @@
 	<context:annotation-config/>
 	<context:property-placeholder location="antx.properties" />
 
-	<context:component-scan base-package="com.handsome"
+	<context:component-scan base-package="com.handsome.bean"
 							use-default-filters="false">
-		<context:include-filter type="regex" expression="com\.handsome.*" />
+		<context:include-filter type="regex" expression="com\.handsome\.bean.*" />
 	</context:component-scan>
 </beans>

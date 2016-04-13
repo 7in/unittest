@@ -1,4 +1,4 @@
-package com.handsome;
+package com.handsome.imock.stubbing.answers;
 
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;

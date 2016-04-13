@@ -1,20 +1,19 @@
 package com.handsome;
 
+import com.handsome.bean.A;
+import com.handsome.bean.B;
+import com.handsome.imock.IMock;
+import com.handsome.imock.runners.IMockJUnitRunner;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 import org.mockito.Spy;
-import org.mockito.runners.MockitoJUnitRunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.test.context.ContextConfiguration;
 
 import javax.annotation.Resource;
-
-import static org.mockito.Mockito.when;
 
 /**
  * Created by jiayu.shenjy on 2016/3/14.

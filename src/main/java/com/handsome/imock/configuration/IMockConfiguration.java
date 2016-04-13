@@ -1,8 +1,7 @@
-package com.handsome;
+package com.handsome.imock.configuration;
 
 import org.mockito.ReturnValues;
 import org.mockito.configuration.AnnotationEngine;
-import org.mockito.configuration.DefaultMockitoConfiguration;
 import org.mockito.configuration.IMockitoConfiguration;
 import org.mockito.internal.configuration.ClassPathLoader;
 import org.mockito.stubbing.Answer;

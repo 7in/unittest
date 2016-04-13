@@ -1,5 +1,6 @@
-package com.handsome;
+package com.handsome.imock.configuration;
 
+import com.handsome.imock.IMockAnnotations;
 import org.mockito.Mockito;
 import org.mockito.internal.configuration.FieldAnnotationProcessor;
 

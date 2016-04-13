@@ -1,5 +1,7 @@
-package com.handsome;
+package com.handsome.imock.configuration;
 
+import com.handsome.imock.IMock;
+import com.handsome.imock.IMockAnnotations;
 import org.mockito.*;
 import org.mockito.configuration.AnnotationEngine;
 import org.mockito.exceptions.Reporter;

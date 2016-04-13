@@ -1,5 +1,6 @@
-package com.handsome;
+package com.handsome.imock.runners;
 
+import com.handsome.imock.IMockAnnotations;
 import org.junit.runner.Description;
 import org.junit.runner.manipulation.Filter;
 import org.junit.runner.manipulation.NoTestsRemainException;

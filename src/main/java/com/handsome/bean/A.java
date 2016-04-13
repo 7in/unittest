@@ -1,4 +1,4 @@
-package com.handsome;
+package com.handsome.bean;
 
 
 import org.springframework.stereotype.Repository;
@@ -19,6 +19,12 @@ public class A {
     public void printHelloWord(){
         System.out.println("a.printHelloB start!");
         System.out.println(b.getHelloWord());
+        System.out.println("a.printHelloB end!");
+
+    }
+    public void printStaticHelloWord(){
+        System.out.println("a.printHelloB start!");
+        System.out.println(B.staticHelloWord());
         System.out.println("a.printHelloB end!");
 
     }

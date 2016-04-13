@@ -1,5 +1,7 @@
-package com.handsome;
+package com.handsome.imock.configuration.injection.scanner;
 
+import com.handsome.imock.IMock;
+import com.handsome.imock.IMockAnnotations;
 import org.mockito.Captor;
 import org.mockito.InjectMocks;
 import org.mockito.exceptions.Reporter;
