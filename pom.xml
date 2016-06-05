@@ -129,7 +129,7 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
         </dependency>
-<!--jmockit.jar must be before junit.jar-->
+        <!--jmockit.jar must be before junit.jar-->
         <dependency>
             <groupId>com.googlecode.jmockit</groupId>
             <artifactId>jmockit</artifactId>
@@ -157,9 +157,9 @@
 
     <build>
         <finalName>${project.artifactId}</finalName>
-        <!--<filters>-->
-        <!--<filter>antx.properties</filter>-->
-        <!--</filters>-->
+        <filters>
+            <filter>antx.properties</filter>
+        </filters>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>

@@ -16,8 +16,8 @@ import javax.annotation.Resource;
 /**
  * Created by jiayu.shenjy on 2016/4/13.
  */
-//@RunWith(SpringJUnit4ClassRunner.class)
-@RunWith(JMockit.class)
+@RunWith(SpringJUnit4ClassRunner.class)
+//@RunWith(JMockit.class)
 @ContextConfiguration(locations = "classpath:bean.xml")
 public class JMockitTest {
     Logger logger = LoggerFactory.getLogger(this.getClass());
@@ -46,6 +46,7 @@ public class JMockitTest {
 
     @Test
     public void jMockStaticTest() {
+
         //1. mock对象
         MockUp<B> mockUp = new MockUp<B>() {
             @Mock
